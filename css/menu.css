@@ -1,0 +1,19 @@
+.menuList {
+    display: none;
+    position: absolute;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: left;
+    padding-top: 15rem;
+    font-size: 2.5rem;
+    overflow: hidden;
+}
+
+.menuList li {
+    transform: translateX(100px);
+    overflow: hidden;
+}

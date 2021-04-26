@@ -1,0 +1,102 @@
+.logoContainer {
+    z-index: 50;
+    padding: 1rem;
+}
+
+.hamburguerMenu {
+    z-index: 50;
+    padding-top: 1.5rem;
+    transform: translateX(-2rem);
+}
+
+.pageHeader {
+  background: black url(/images/mobile/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+.titleBox {
+  width: 100%;
+  color: white;
+  padding: 70% 1.5rem;
+}
+
+.menuTitle {
+  border: 0.2rem solid white;
+  padding: 1rem;
+}
+
+
+.secondContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6rem;
+}
+
+.imagem {
+    position: relative;
+    height: 0;
+    padding-top:37%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 1.5rem;
+}
+
+.imagem p {
+    font-size: 6.5vw;
+    text-align: left;
+    display: flex;
+    width: 45%;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+.botaoDiv{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    order: 10;
+    justify-content: center;
+    
+}
+
+.botao {
+    font-family: var(--font-main);
+    letter-spacing: 0.5em;
+    padding: 1rem 4rem;
+    border: 0.11rem solid black;
+    background: transparent;
+}
+
+.footerDiv {
+    background-color: var(--black);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 3rem;
+}
+
+.footerNav {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.footerNav ul {
+    padding-top: 1rem;
+    font-weight: bolder;
+}
+.icons {
+    padding-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
