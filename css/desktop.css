@@ -1,0 +1,146 @@
+@media (min-width: 900px) {
+     
+    .pageHeader .logoContainer {
+        display: block;
+        width: 20%;
+        padding-top: 4rem;
+        padding-left: 4rem ;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .pageHeader {
+        display: flex;
+        width: 100%;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/desktop/image-hero.jpg);
+        padding: 0;
+    }
+
+    .titleBox {
+        font-size: 2vw;
+        padding: 10rem 4rem 10rem;
+        width: 40%;
+        order: 3;
+    }
+
+    .menuList {
+        display: flex;
+        padding-top: 4rem;
+        font-size: 1.3rem;
+        font-weight: 600;
+        width: 50%;
+        font-family: var(--font-main);
+        color: white;
+        order: 2;
+        justify-content: center;
+    }
+
+    .menuList li {
+        display: inline-block;
+        padding-left: 1rem;
+    }
+
+    .firstContainer {
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .leader {
+        padding-top: 1rem;
+        padding-left: 4rem;
+        width: 35%;
+        height: 50%;
+        background-color: white;
+        transform: translate(-100px );
+    }
+
+    .leader p {
+        text-align: left;
+        font-size: 1.3vw;
+        line-height: 1rem;
+    }
+
+    .leader h1 {
+        text-align: left;
+        font-size: 3.6vw;
+        padding-bottom: 1rem;
+        font-weight: 700;
+    }
+    .leaderPicture {
+        width: 40%;
+    }
+
+    .secondContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    
+    .botaoDiv {
+        width: 100%;
+        order: 0;
+    }
+
+    .tituloContainer {
+        width: 30%;
+    }
+
+    .imagem {
+        width: 23%;
+    }
+
+    .imagem p {
+        padding: 1rem;
+        font-size: 2vw;
+        width: 50%;
+    }
+
+    .footer-nav, .footerNav li, .icons, .logoContainer {
+        padding: 0;
+    }
+
+    .footerDiv {
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: row;
+        padding: 2rem 0;
+    }
+
+    .logoContainer img {
+        width: 50%;
+    }
+
+    .footerNav {
+        padding-top: 2rem;
+    }
+
+    .footerNav li {
+        display: inline-block;
+    }
+    
+    .logoNav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 4rem;
+    }
+ 
+    .icons {
+        display: flex;
+        gap: 1;
+    }
+
+    .icons img {
+        width: 10%;
+    }
+
+    .copyright {
+        padding-top: 1.7rem;
+        transform: translateX(-100px);
+    }
+
+}

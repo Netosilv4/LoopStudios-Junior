@@ -10,13 +10,9 @@
   <link rel="stylesheet" href="./css/tablet.css">
   <link rel="stylesheet" href="./css/desktop.css">
   <link rel="stylesheet" href="./css/menu.css">
+  <link rel="stylesheet" href="./css/imageReplacer.css">
   <title>Frontend Mentor | Loopstudios landing page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <header class="pageHeader">
@@ -44,7 +40,7 @@
 
   <section class="firstContainer">
 
-    <picture>
+    <picture class="leaderPicture">
       <img src="/images/mobile/image-interactive.jpg" alt="">
     </picture>
 
@@ -60,42 +56,49 @@
   </section>
 
   <section class="secondContainer">
-  
-  <h1>OUR CREATIONS</h1>
-  <div class="botaoDiv">
-    <button class="botao">SEE ALL</button>
-  </div>
 
-  <div class="imagem" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(./images/mobile/image-deep-earth.jpg);"><p>DEEP EARTH</p></div>
-  <div class="imagem" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(./images/mobile/image-night-arcade.jpg);"><p>NIGHT ARCADE</p></div>
-  <div class="imagem" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(./images/mobile/image-soccer-team.jpg);"><p>SOCCER TEAM VR</p></div>
-  <div class="imagem" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(./images/mobile/image-grid.jpg);"><p>THE GRID</p></div>
-  <div class="imagem" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(./images/mobile/image-from-above.jpg);"><p>FROM UP ABOVE VR</p></div>
-  <div class="imagem" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(./images/mobile/image-pocket-borealis.jpg);"><p>POCKET BOREALS</p></div>
-  <div class="imagem" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(./images/mobile/image-curiosity.jpg);"><p>THE CURIOSITY</p></div>
-  <div class="imagem" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(./images/mobile/image-fisheye.jpg);"><p>MAKE IT FISHEYE</p></div>
+      <div class="tituloContainer">
+        <h1>OUR CREATIONS</h1>
+      </div>
+      <div class="botaoDiv">
+        <button class="botao">SEE ALL</button>
+      </div>
+
+  <div class="imagem imagemA"><p>DEEP EARTH</p></div>
+  <div class="imagem imagemB"><p>NIGHT ARCADE</p></div>
+  <div class="imagem imagemC"><p>SOCCER TEAM VR</p></div>
+  <div class="imagem imagemD"><p>THE GRID</p></div>
+  <div class="imagem imagemE"><p>FROM UP ABOVE VR</p></div>
+  <div class="imagem imagemF"><p>POCKET BOREALS</p></div>
+  <div class="imagem imagemG"><p>THE CURIOSITY</p></div>
+  <div class="imagem imagemH"><p>MAKE IT FISHEYE</p></div>
 
   </section>
 
   <footer class="footerDiv">
+    <div class="logoNav">
     <picture class="logoContainer">
       <img class="logo" src="/images/logo.svg" alt="">
     </picture>
     <nav class="footerNav">
-      <ul>About</ul>
-      <ul>Careers</ul>
-      <ul>Events</ul>
-      <ul>Products</ul>
-      <ul>Support</ul>
+      <li>About</li>
+      <li>Careers</li>
+      <li>Events</li>
+      <li>Products</li>
+      <li>Support</li>
     </nav>
-
+  </div>
+  <div class="iconsCopy">
     <div class="icons">
       <img src="/images/icon-facebook.svg" alt="">
       <img src="/images/icon-twitter.svg" alt="">
       <img src="/images/icon-pinterest.svg" alt="">
       <img src="/images/icon-instagram.svg" alt="">
     </div>
-    <p>© 2021 Loopstudios. All rights reserved.</p>
+    <div class="copyright">
+      <p>© 2021 Loopstudios. All rights reserved.</p>
+    </div>
+  </div>
   </footer>
   <script src="/javascript/menu.js"></script>
 </body>

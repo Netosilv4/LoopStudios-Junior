@@ -1,4 +1,6 @@
-.menuList {
+@media (max-width: 900px) {
+    
+  .menuList {
     display: none;
     position: absolute;
     color: white;
@@ -11,9 +13,11 @@
     padding-top: 15rem;
     font-size: 2.5rem;
     overflow: hidden;
-}
+  }
 
-.menuList li {
+  .menuList li {
     transform: translateX(100px);
     overflow: hidden;
+  }
+
 }
