@@ -20,7 +20,7 @@
 
     .titleBox {
         font-size: 2vw;
-        padding: 10rem 4rem 10rem;
+        padding: 5rem 4rem 10rem;
         width: 40%;
         order: 3;
     }
@@ -61,7 +61,7 @@
     .leader p {
         text-align: left;
         font-size: 1.3vw;
-        line-height: 1rem;
+        line-height: 1.5vw;
     }
 
     .leader h1 {
@@ -69,6 +69,7 @@
         font-size: 3.6vw;
         padding-bottom: 1rem;
         font-weight: 700;
+    
     }
     .leaderPicture {
         width: 40%;
@@ -79,15 +80,19 @@
         flex-direction: row;
         flex-wrap: wrap;
         gap: 1rem;
+        padding: 5rem;
     }
+
     
     .botaoDiv {
-        width: 100%;
+        width: 50%;
         order: 0;
+        justify-content: flex-end;
     }
 
     .tituloContainer {
         width: 30%;
+        transform: translateY(20px);
     }
 
     .imagem {
@@ -108,7 +113,7 @@
         justify-content: space-between;
         align-items: flex-start;
         flex-direction: row;
-        padding: 2rem 0;
+        padding: 2rem 0rem;
     }
 
     .logoContainer img {
