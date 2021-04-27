@@ -14,7 +14,7 @@
     .pageHeader {
         display: flex;
         width: 100%;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/desktop/image-hero.jpg);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/desktop/image-hero.jpg);
         padding: 0;
     }
 
